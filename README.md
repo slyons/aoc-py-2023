@@ -173,5 +173,21 @@ That means you didn't `add`/`commit` properly. Try it again, check `git status`.
 While editing this README I did the following once I was done with my work:
 
 ```shell
+❯ git add README.md
 
+❯ git commit -m "Updating README with instructions"
+[main 2f8aec7] Updating README with instructions
+ 1 file changed, 177 insertions(+)
+ create mode 100644 README.md
+
+❯ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.99 KiB | 2.99 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/slyons/aoc-py-2023.git
+   9a4f734..2f8aec7  main -> main
 ```
