@@ -1,11 +1,11 @@
 from utils import *
 
-#@part_a()
+#@answer_part_a(year=2023, day=1)
 #def part_1(data):
 #    #print(data)
 #    pass
 
-#@part_b()
+#@answer_part_b(year=2023, day=1)
 #def part_2(data):
 #    #print(data)
 #    pass
