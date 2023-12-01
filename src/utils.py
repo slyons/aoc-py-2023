@@ -45,7 +45,9 @@ def part_wrapper(part, datafn):
                     logging.error(f"The function {fn_name} does not return any data. Be sure to include `return <your_answer>` at the end of your code")
                     sys.exit(1)
                 else:
-                    submit(answer=result, part=part)
+                    print(f"The solution to Part {part} is {result}")
+                #else:
+                #    submit(answer=result, part=part)
             setattr(wrapped, "part", part)
             return wrapped
         return inner_decorator
