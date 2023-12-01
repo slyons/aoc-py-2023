@@ -17,7 +17,7 @@ These steps should be done once
 11. Sign up for an account at [Advent of Code](https://adventofcode.com/) using **Chrome**
 12. Click on `Leaderboard` and input the team ID I give you
 13. Create a directory named `aocd-data` in your project directory (same folder as `src` lives in)
-14. Follow [these instructions](https://github.com/wimglenn/advent-of-code/issues/1) to get your Session ID (a long string of letters and numbers). Create a new file named `token` in `aocd-data` and paste the Session ID into it.
+14. Follow [these instructions](https://github.com/wimglenn/advent-of-code/issues/1) to get your Session ID (a long string of letters and numbers). Create a new file named `token` in `aocd-data` and paste the Session ID into it. **Do not add a file extension to the file name. It should be token, not token.txt**
 15. `aocd 2018 1` should print out a bunch of lines
 
 ## Puzzles
