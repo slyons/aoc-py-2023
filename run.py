@@ -15,6 +15,16 @@ def run():
     solution_modules.sort(reverse=True)
 
     ###
+    # Filter based on arguments
+    ###
+    if len(sys.argv) == 3:
+        year = sys.argv[1]
+        day = sys.argv[2]
+        print(f"Running for year {year} day {day}")
+        filter_str = f"{year}_{day:0>2}"
+        solution_modules = list(filter(lambda x: x.startswith(filter_str), solution_modules))
+
+    ###
     # Load the module and search for solution functions
     ###
     next_fns = None
